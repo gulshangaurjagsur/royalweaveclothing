@@ -1472,6 +1472,7 @@ display: none;
 }
 .about_section .detail-box p{
   margin-right: 0;
+  margin-top: 10px;
 }
 .about_section .detail-box a{
   margin-top: 0;
@@ -1648,7 +1649,7 @@ display: none;
 
   .about_section::before {
     width: 115%;
-    height: 60%;
+    height: 70%;
   }
 
   .about_section .detail-box {
