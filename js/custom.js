@@ -28,35 +28,78 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function openNav() {
-    document.getElementById("myNav").classList.toggle("menu_width")
-    document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
+  document.getElementById("myNav").classList.toggle("menu_width")
+  document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
 }
 
 
 const products = [
   { img: "images/product/men/1.jpeg", name: "Men Outfit", price: 100, category: "men" },
-  { img: "images/product/women/1.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/kids/1.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
-  { img: "images/product/men/2.jpeg", name: "Men Outfit", price: 100, category: "men" },
-  { img: "images/product/men/3.jpeg", name: "Men Outfit", price: 100, category: "men" },
-  { img: "images/product/women/2.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/3.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/4.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/5.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/6.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/7.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/8.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/9.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/10.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/11.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/12.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/13.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/R1.jpg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/14.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/15.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/16.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/17.jpeg", name: "Women Outfit", price: 100, category: "women" },
-  { img: "images/product/women/18.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/women/1.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/1.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/2.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/2.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/2.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/3.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/3.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/3.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/4.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/4.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/4.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/5.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/5.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/5.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/6.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/6.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/6.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/7.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/7.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/7.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/8.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/8.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/8.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/9.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/9.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/9.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/10.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/10.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/10.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/11.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/11.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/11.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/12.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/12.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/12.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/13.jpeg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/13.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/13.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+
+{ img: "images/product/men/14.jpg", name: "Men Outfit", price: 100, category: "men" },
+{ img: "images/product/women/14.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/kids/14.jpeg", name: "Kids Outfit", price: 100, category: "kids" },
+{ img: "images/product/women/15.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/women/16.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/women/17.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/women/18.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/women/19.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/women/20.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/women/21.jpeg", name: "Women Outfit", price: 100, category: "women" },
+{ img: "images/product/women/22.jpeg", name: "Women Outfit", price: 100, category: "women" },
+
+
+
 
   // baaki same pattern me
 ];
