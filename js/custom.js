@@ -136,7 +136,7 @@ function loadProducts(reset = false) {
       <div class="detail-box">
         <h4 class="single-price">${product.name}</h4>
         <h5>Price On Request</h5>
-        <a href="https://wa.me/919821040543" class="buy-btn" target="_blank">Buy Now</a>
+        <a href="https://wa.me/919873955263" class="buy-btn" target="_blank">Buy Now</a>
       </div>
     `;
 
