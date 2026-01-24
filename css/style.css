@@ -1459,6 +1459,13 @@ display: inline-block;
     transition: all 0.3s;
     border: 1px solid #061b32;
     border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    }
+    .whiteBtn:hover{
+      background-color: #061b32;
+      color: #fff;
+      transition: all 0.3s;
     }
 @media (max-width: 767px) {
 .slider_section .side-img{
@@ -1692,4 +1699,8 @@ display: none;
     align-items: flex-start;
   }
 
+}
+.formStyle{
+  background-color: #dae9f9;
+  border-radius: 6px;
 }
